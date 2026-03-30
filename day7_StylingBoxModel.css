@@ -11,10 +11,12 @@ h1{
     border-style: dotted;
     border-color: purple;
     text-align: center;
-
+    border-bottom-style: solid;
+    border-bottom-color: crimson;
 }
 
 button{
     border: 2px double purple;
+    border-radius: 25px;
 }
 
