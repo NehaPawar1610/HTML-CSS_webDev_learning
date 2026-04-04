@@ -1,0 +1,26 @@
+#div1{
+    height: 400px;
+    width:200px;
+    color: black;
+    background-image: url(back.jpg);
+    background-size: cover;
+     display: inline-block;
+}
+
+#div2{
+    height: 400px;
+    width:200px;
+    color: black;
+    background-image: url(back.jpg);
+    background-size: contain;
+    display: inline-block;
+}
+ #div3{
+
+    height: 400px;
+    width:200px;
+    color: black;
+    background-image: url(back.jpg);
+    background-size: auto;
+    display: inline-block;
+ }
