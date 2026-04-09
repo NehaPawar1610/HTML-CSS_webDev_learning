@@ -1,0 +1,49 @@
+.container1{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    border: 5px solid black;
+    margin: 10px auto;
+    flex-direction: row;
+}
+
+ div{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.container2{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    border: 5px solid black;
+    margin: 10px auto;
+    flex-direction: row-reverse;
+}
+
+.container3{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    border: 5px solid black;
+    margin: 10px auto;
+    flex-direction: column;
+}
+
+.container4{
+    width: 80%;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    border: 5px solid black;
+    margin: 10px auto;
+    flex-direction: column-reverse;
+}
