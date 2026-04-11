@@ -6,12 +6,14 @@
     <title>Input Type Attribute</title>
 </head>
 <body>
-    <form method="GET" action="">
-         First name: <input type="text" placeholder="Enter your first name"/>  
-        Username: <input type="text" pattern="[A-Z]+" required/>  
-        Job experience: <input type="number" min="2" max="10" step="1"/> 
-        Upload certificates:<input type="file" multiple/>
-        <input type="submit" formmethod="POST">
+    <form method="post" action="action.html">
+        First name: <input type="text" placeholder="Enter your first name"/> <br/>  
+        Username(Uppercase): <input type="text" pattern="[A-Z]+" required/>  <br>
+        Job experience: <input type="number" min="2" max="10" step="1"/> <br>
+        Upload certificates:<input type="file" multiple/><br>
+        Like coding:<input type="text" autocomplete="Yes"/> <br/> 
+        Contact: <input type="number" autofocus/><br/>  
+        <input type="submit" formmethod="get">
     </form>
 
    
